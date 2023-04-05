@@ -1,0 +1,17 @@
+{
+    "name": "model/lock",
+    "description": "Wrapper around symfony/lock to support timeouts in blocking locks",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Domenico Giambra",
+            "email": "zorinik@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Model\\Lock\\": "src/"}
+    },
+    "require": {
+        "symfony/lock": "^6.2"
+    }
+}
