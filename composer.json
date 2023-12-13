@@ -12,6 +12,6 @@
         "psr-4": {"Model\\Lock\\": "src/"}
     },
     "require": {
-        "symfony/lock": "^6.2"
+        "symfony/lock": "^7.0"
     }
 }
